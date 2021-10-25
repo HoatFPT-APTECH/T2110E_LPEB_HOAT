@@ -1,4 +1,5 @@
 #include<stdio.h>
+#include<conio.h>
 int main(){
 	float s,n;
 	printf("nhap vao so tien gui trong 4 nam o ngan hang: .\n");
@@ -20,4 +21,5 @@ int main(){
 		s=s*1.08;
 	}
 	printf("so tien sau 4 nam la:%.3f.\n",s);
+	getch();
 }
