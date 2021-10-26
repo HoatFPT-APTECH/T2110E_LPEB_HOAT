@@ -6,7 +6,7 @@ int main(){
 	scanf("%d",&N);
 	printf("nhap vao thang: \n");
 	scanf("%d",&T);
-	if(N==29&&T==2)
+	if(N==29&&T==2&&N<=28)
 	printf("day khong phai nam nhuan thang 2 co 29 ngay");
 	else if(1<=N&&N<=31&&1<=T&&T<=12){
 		if(T==1){
